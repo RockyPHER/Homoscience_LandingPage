@@ -1,11 +1,19 @@
+<script>
+
+	import Logo from "./logo.svelte";
+
+</script>
 <div
   class="w-full h-[300px] absolute z-10 bottom-0 left-0 flex flex-col justify-between bg-black px-20 py-6"
 >
   <div class="w-full flex">
-    <div class="flex items-center">
-      <p class="text-2xl text-white font-bold">HOMO</p>
-      <p class="text-2xl text-orange-400 font-bold">SCIENCE</p>
-    </div>
+   <div class="flex items-center gap-2">
+        <Logo colorComponent="#FFFFFF" size={40} />
+        <div class="flex items-center">
+          <p class="text-2xl text-white font-bold">HOMO</p>
+          <p class="text-2xl text-orange-400 font-bold">SCIENCE</p>
+        </div>
+      </div>
   </div>
   <div
     class="w-full flex items-center pt-5 border-t border-white border-opacity-40"
